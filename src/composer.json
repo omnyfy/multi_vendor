@@ -1,0 +1,16 @@
+{
+    "name": "omnyfy/vendor",
+    "description": "",
+    "authors": [{
+      "email": "jing.xiao@omnyfy.com",
+      "name": "Jing Xiao"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+          "Omnyfy\\Vendor\\": ""
+      },
+      "files": ["registration.php"]
+    }
+}
