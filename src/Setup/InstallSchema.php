@@ -195,14 +195,14 @@ class InstallSchema implements InstallSchemaInterface
                     Table::TYPE_DECIMAL,
                     '10,6',
                     ['nullable' => false],
-                    'ABN'
+                    'Latitude'
                 )
                 ->addColumn(
                     'longitude',
                     Table::TYPE_DECIMAL,
                     '10,6',
                     ['nullable' => false],
-                    'Business Logo'
+                    'Longitude'
                 )
                 ->addForeignKey(
                     $installer->getFkName('omnyfy_location', 'vendor_id', 'omnyfy_vendor', 'vendor_id'),
